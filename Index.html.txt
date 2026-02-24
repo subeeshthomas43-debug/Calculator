@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>North America–India Cross Border Consulting | Subeesh Thomas</title>
+
+<!-- SEO -->
+<meta name="description" content="North America–India Cross Border Consulting by Subeesh Thomas. Outsourcing advisory, IT office space listings, and expansion support.">
+<meta name="keywords" content="Cross border consulting, India IT office, North America business India, outsourcing advisory">
+<meta name="author" content="Subeesh Thomas">
+
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+/* Reset & Body */
+body { margin:0; font-family: 'Roboto', Arial, sans-serif; background:#f4f6f9; line-height:1.6; scroll-behavior: smooth; }
+a { text-decoration: none; color: inherit; }
+
+/* Header */
+header { background:#0b3d91; color:white; padding:25px 0; text-align:center; }
+header h1 { margin:0; font-size:2rem; }
+header p { margin:5px 0 0; font-size:1rem; }
+
+/* Navigation */
+nav { display:flex; justify-content:center; background:#082c6c; flex-wrap:wrap; }
+nav a { color:white; padding:14px 20px; transition: background 0.3s; }
+nav a:hover { background:#114bb1; border-radius:5px; }
+
+/* Hero Section */
+.hero { 
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf'); 
+  background-size:cover; background-position:center; color:white; padding:100px 20px; text-align:center;
+}
+.hero h1 { font-size:42px; margin-bottom:20px; }
+.hero p { max-width:700px; margin:20px auto; font-size:1.2rem; }
+.btn { display:inline-block; padding:12px 25px; margin-top:25px; background:#ff6600; color:white; font-weight:bold; border-radius:5px; transition: 0.3s; }
+.btn:hover { background:#e65c00; }
+
+/* Sections */
+section { padding:60px 20px; max-width:1100px; margin:auto; }
+h2 { text-align:center; margin-bottom:40px; }
+
+/* Cards & Grids */
+.services, .properties, .blogs { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+.card { background:white; padding:25px; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+.card:hover { transform: translateY(-5px); box-shadow:0 6px 15px rgba(0,0,0,0.15); }
+.card h3 { margin-top:0; }
+.card button { padding:10px 20px; background:#ff6600; color:white; border:none; border-radius:5px; cursor:pointer; margin-top:10px; transition: 0.3s; }
+.card button:hover { background:#e65c00; }
+
+/* Contact Form */
+.contact-form input, .contact-form textarea { width:100%; padding:12px; margin:10px 0; border-radius:5px; border:1px solid #ccc; }
+.contact-form button { padding:12px 25px; background:#0b3d91; color:white; border:none; cursor:pointer; border-radius:5px; transition: 0.3s; }
+.contact-form button:hover { background:#082c6c; }
+
+/* Footer */
+footer { background:#082c6c; color:white; text-align:center; padding:25px; margin-top:40px; font-size:0.9rem; }
+
+/* Office List Toggle */
+#property-list { display:none; transition: all 0.5s ease; overflow:hidden; }
+
+/* Responsive */
+@media(max-width:600px){
+  .hero h1{font-size:30px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>North America–India Cross Border Consulting</h1>
+  <p>India Infrastructure & Expansion Support for North American Companies</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#properties">Office Listings</a>
+  <a href="#news">News</a>
+  <a href="#blogs">Blogs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Helping North American Companies Expand into India</h1>
+  <p>We connect businesses across North America with trusted outsourcing partners, commercial IT office spaces, and expansion support in India.</p>
+  <a href="#contact" class="btn">Book Consultation</a>
+</section>
+
+<section id="about">
+  <h2>About Our Consulting</h2>
+  <p>We specialize in cross-border business referrals between North America and India. Our services focus on outsourcing advisory, IT office space listings, and strategic business partner introductions.</p>
+  <p>We operate on a transparent, success-based referral model.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3><i class="fas fa-handshake"></i> Outsourcing Partner Referrals</h3>
+      <p>Connecting North American businesses with verified Indian IT and BPO firms.</p>
+    </div>
+    <div class="card">
+      <h3><i class="fas fa-users"></i> Remote Team Setup Advisory</h3>
+      <p>Guidance on offshore team structures, vendor coordination, and operational setup.</p>
+    </div>
+    <div class="card">
+      <h3><i class="fas fa-building"></i> IT Office Space Listings</h3>
+      <p>Showcasing commercial-approved buildings suitable for IT operations in Kerala.</p>
+    </div>
+  </div>
+</section>
+
+<section id="properties">
+  <h2>Available Office Spaces in Kerala</h2>
+  <p style="text-align:center;">
+    <button class="btn" onclick="toggleProperties()">Click here to view available office spaces</button>
+  </p>
+  <div class="properties" id="property-list">
+    <div class="card">
+      <h3>Koorachundu Commercial Building</h3>
+      <p>Suitable for 10–50 staff IT team.</p>
+      <p><strong>District:</strong> Kozhikode, Kerala</p>
+      <p><strong>Status:</strong> Commercial Approved</p>
+      <button onclick="window.location.href='#contact'">Request Details</button>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <h2>Latest News</h2>
+  <div class="blogs">
+    <div class="card">
+      <h3>Kerala Government Announces New IT Parks</h3>
+      <p>Recent updates on emerging IT hubs in Kerala for small & medium enterprises.</p>
+      <button onclick="window.location.href='news1.html'">Read More</button>
+    </div>
+    <div class="card">
+      <h3>Cross-Border Business Regulations Update</h3>
+      <p>New policies affecting North American companies investing in India.</p>
+      <button onclick="window.location.href='news2.html'">Read More</button>
+    </div>
+  </div>
+</section>
+
+<section id="blogs">
+  <h2>Our Blogs & Insights</h2>
+  <div class="blogs">
+    <div class="card">
+      <h3>Top 5 Tips for North American Companies Entering India</h3>
+      <p>Practical advice on choosing the right partners, locations, and legal structure.</p>
+      <button onclick="window.location.href='blog1.html'">Read More</button>
+    </div>
+    <div class="card">
+      <h3>How Remote Teams Can Save Costs & Boost Productivity</h3>
+      <p>Insights on hiring, operations, and management of offshore teams effectively.</p>
+      <button onclick="window.location.href='blog2.html'">Read More</button>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-form">
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Tell us about your requirement" required></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 North America–India Cross Border Consulting | All Rights Reserved</p>
+</footer>
+
+<script>
+// Smooth scrolling for nav links
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Toggle office listing visibility
+function toggleProperties() {
+  const propertyList = document.getElementById('property-list');
+  propertyList.style.display = propertyList.style.display === 'grid' ? 'none' : 'grid';
+}
+</script>
+
+</body>
+</html>
